@@ -1,0 +1,47 @@
+body{
+    background-image:url("./Images/cat.jpg");
+	 background-size: cover;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    margin-top: 80px;
+    padding: 30px;
+}
+header{
+     background-color:darkseagreen;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+	display: flex;
+	align-items: center;
+}
+header * {
+	display:inline;
+}
+header li{
+	margin: 20px;
+	text-decoration: none;
+	margin-left: 120px;
+	color: #000000;
+}
+h3{
+	text-align: center;
+}
+
+#footer{
+	padding: 20px;
+	width: 250px;
+	text-align: center;
+	margin: auto;
+	height: 50px;
+	background-color: burlywood;
+	
+}
+.model{
+    float: left;
+    margin: 10px;
+}
+.family{
+    float: right;
+    margin:5px;
+}
